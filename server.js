@@ -34,7 +34,7 @@ app.get('/api', (req, res) => {
 
     // GitHub URLs based on query parameters
     const github_file_url = `https://github.com/25Emmanuel/task-one/blob/master/${track}/server.js`;
-    const github_repo_url = `https://github.com/25Emmanuel/task-one${track}`;
+    const github_repo_url = `https://github.com/25Emmanuel/task-one/${track}`;
 
     // Prepare the response object
     const response = {
