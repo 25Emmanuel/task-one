@@ -1,6 +1,8 @@
 const express = require ('express');
 const app = express ();
-const PORT = 3000;
+require ('dotenv').config();
+
+const PORT = process.env.MY_PORT;
 
 function today () {
     const dayInNumber = new Date().getDay();
